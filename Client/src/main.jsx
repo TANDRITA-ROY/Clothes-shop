@@ -11,6 +11,7 @@ import Home from "./Home/Home";
 import './index.css';
 import LoginFinal from "./Login/Login";
 import Registration from "./Registration/Registration";
+import ProductDetail from "./ProductDetail/ProductDetail";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "login",
     element: <LoginFinal/>
+  },
+  {
+    path: "product",
+    element: <ProductDetail/>
   },
 ]);
 
