@@ -15,11 +15,11 @@ const Registration = () => {
   };
   const submitForm = () => {
     const payLoad = {
-      First_name: "shubho1431",
+      First_name: "shvo1431",
       Last_name: "Acharyya",
       Password: "subho12344",
-      Email: "abc44w1@gmail.com",
-      Phone: "9209976991",
+      Email: "abc4555w1@gmail.com",
+      Phone: "9209976391",
       User_type: "USER",
     };
     postDataToApi(payLoad).then((res)=>{

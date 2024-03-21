@@ -6,7 +6,7 @@ export const postDataToApi = async (apiData) => {
     console.log(apiData, "apiData");
     const headers = {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer YourAuthToken', // Example: Bearer token
+      // 'Authorization': 'Bearer YourAuthToken', // Example: Bearer token
       // Add any other headers you need
     };
     const response = await axios.post(apiUrl, apiData,{headers});
