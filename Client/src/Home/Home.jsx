@@ -1,5 +1,6 @@
 import React from 'react'
 import ProductCard from '../CommonComponents/ProductCard';
+import Navbar from '../CommonComponents/Navbar';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
@@ -12,6 +13,8 @@ const Home = () => {
       })
     }
   return (
+    <>
+      <Navbar/>
     <div className="p-5 m-8 md:p-8 md:m-10">
     <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
       {
@@ -23,7 +26,8 @@ const Home = () => {
         ))
       }
     </div>
-  </div>
+      </div>
+      </>
   
   )
 }
